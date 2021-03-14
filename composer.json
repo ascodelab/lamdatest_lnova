@@ -11,6 +11,10 @@
         {
             "type": "path",
             "url": "./nova"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/PriceWidget"
         }
     ],
     "require": {
@@ -20,7 +24,8 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
-        "laravel/nova": "*"
+        "laravel/nova": "*",
+        "lamdatest/price-widget": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
